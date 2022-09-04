@@ -319,14 +319,14 @@ background: linear-gradient(to bottom, #3263ff, #4874ff);
 }
 
 #card1first {
-  transform: rotate(-5deg);
+  transform: rotate(5deg) !important;
 }
 #card1second {
   transform: rotate(2deg) translateY(-100px);
 }
 
 #card1fourth {
-  transform: rotate(-10deg);
+  transform: rotate(0deg) !important;
 }
 
 .cards_wrapper {
@@ -390,6 +390,7 @@ background: linear-gradient(to bottom, #3263ff, #4874ff);
   color: #a8affe;
 }
 .cards_wrapper .card.yellow {
+  margin-top: 100px;
   background: #f5bf5a;
   color: #7c6230;
 }
